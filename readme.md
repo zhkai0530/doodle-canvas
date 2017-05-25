@@ -1,8 +1,9 @@
 ### canvas涂鸦板
 
-![Image text](https://github.com/zhkai0530/doodle-canvas/blob/master/images/doodle-canvas.gif)
-
 一个基于canvas，利用原生JS实现的小项目，在此项目上，可以选择笔尖粗细，可以选择颜色，有橡皮擦，也有一键清除。
+
+
+![Image text](https://github.com/zhkai0530/doodle-canvas/blob/master/images/doodle-canvas.gif)
 
 ### 使用方法
 
