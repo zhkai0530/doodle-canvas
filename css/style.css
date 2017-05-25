@@ -6,6 +6,9 @@
 }
 .option-box{
 	height:30px;
+	width:800px;
+	margin:auto;
+	padding-top:6px;
 }
 .option-box li{
 	float:left;
