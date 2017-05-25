@@ -1,0 +1,16 @@
+*{
+	margin:0;
+	padding:0;
+	text-decoration:none;
+	list-style:none;
+}
+.option-box{
+	height:30px;
+}
+.option-box li{
+	float:left;
+	margin-right:50px;
+}
+#canvas{
+	display:block;
+}
