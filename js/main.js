@@ -130,11 +130,12 @@ window.onload = function() {
 	canvas.width = getWidth();
 	canvas.height = getHeight() - optionBoxHeight;
 	window.onresize = function() {
-		ctx.restore();
+		var imgdata = ctx.getImageData(0,0,canvas.width,canvas.height);
 		getWidth();
 		getHeight();
 		canvas.width = getWidth();
 		canvas.height = getHeight() - optionBoxHeight;
+		ctx.putImageData(imgdata,0,0)
 		// console.log(canvas.width);
 	}
 
