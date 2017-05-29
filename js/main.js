@@ -129,7 +129,7 @@ window.onload = function() {
 	//设置画布宽高
 	canvas.width = getWidth();
 	canvas.height = getHeight() - optionBoxHeight;
-	canvas.onresize = function() {
+	window.onresize = function() {
 		ctx.restore();
 		getWidth();
 		getHeight();
